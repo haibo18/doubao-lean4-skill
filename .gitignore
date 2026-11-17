@@ -1,0 +1,21 @@
+# Lean / Lake build artifacts
+.lake/
+*.olean
+*.ilean
+*.trace
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local toolchain pins outside the example
+!/examples/Lean4Demo/lean-toolchain

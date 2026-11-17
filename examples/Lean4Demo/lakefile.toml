@@ -1,0 +1,6 @@
+name = "Lean4Demo"
+version = "0.1.0"
+defaultTargets = ["Lean4Demo"]
+
+[[lean_lib]]
+name = "Lean4Demo"
